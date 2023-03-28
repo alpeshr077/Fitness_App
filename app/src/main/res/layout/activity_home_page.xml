@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_page">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/baseline_person_24" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="50sp"
+            android:src="@drawable/baseline_notifications_24" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Store"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Training Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Training Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Training Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image_2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Meal Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Training Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image_3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Supplement Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Training Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image_4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Daily Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Training Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/gym_image_5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Weekly Plan"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_feed_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feed" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_signal_cellular_alt_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/v_icon2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_inventory_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_more_horiz_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
